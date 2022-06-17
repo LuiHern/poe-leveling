@@ -4,16 +4,20 @@
     @apply text-center text-3xl font-bold
 }
 
+.check {
+    @apply mr-1
+}
+
 .quest {
-    @apply font-bold text-yellow-500
+    @apply font-bold text-yellow-500 px-1
 }
 
 .boss {
-    @apply font-bold text-orange-500
+    @apply font-bold text-orange-500 px-1
 }
 
 .zone {
-    @apply font-bold text-purple-500 block
+    @apply font-bold text-purple-500 px-1
 }
 
 @tailwind utilities;

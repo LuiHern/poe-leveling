@@ -1,3 +1,10 @@
+import Step from "../Step";
+
+interface ActProps {
+    bosses: string [];
+    steps: Step [];
+}
+
 const Act1 = () => {
     return (
         <>
@@ -6,7 +13,7 @@ const Act1 = () => {
                 <li>
                     <label className={'flex flex-row'}>
                         <div>
-                            <input type={'checkbox'}/>
+                            <input type={'checkbox'} className={'check'}/>
                         </div>
                         <div className={'flex'}>
                             <p>On </p>
@@ -19,7 +26,7 @@ const Act1 = () => {
                 <li>
                     <label className={'flex flex-row'}>
                         <div>
-                            <input type={'checkbox'}/>
+                            <input type={'checkbox'} className={'check'}/>
                         </div>
                         <div className={'flex'}>
                             <p>Turn in</p>
