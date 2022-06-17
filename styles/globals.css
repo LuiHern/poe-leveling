@@ -1,4 +1,20 @@
 @tailwind base;
 @tailwind components;
+.actTitle {
+    @apply text-center text-3xl font-bold
+}
+
+.quest {
+    @apply font-bold text-yellow-500
+}
+
+.boss {
+    @apply font-bold text-orange-500
+}
+
+.zone {
+    @apply font-bold text-purple-500 block
+}
+
 @tailwind utilities;
 
